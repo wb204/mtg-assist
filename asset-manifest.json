@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mtg-assist/static/css/main.f855e6bc.css",
-    "main.js": "/mtg-assist/static/js/main.a8dd24f1.js",
+    "main.js": "/mtg-assist/static/js/main.aa0f0104.js",
     "static/js/787.8688077f.chunk.js": "/mtg-assist/static/js/787.8688077f.chunk.js",
     "index.html": "/mtg-assist/index.html",
     "main.f855e6bc.css.map": "/mtg-assist/static/css/main.f855e6bc.css.map",
-    "main.a8dd24f1.js.map": "/mtg-assist/static/js/main.a8dd24f1.js.map",
+    "main.aa0f0104.js.map": "/mtg-assist/static/js/main.aa0f0104.js.map",
     "787.8688077f.chunk.js.map": "/mtg-assist/static/js/787.8688077f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.a8dd24f1.js"
+    "static/js/main.aa0f0104.js"
   ]
 }
