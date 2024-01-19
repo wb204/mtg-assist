@@ -6,9 +6,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div>
+      <section className="grid place-items-center bg-emerald-900 p-16 min-h-screen">
         <LifeCounter />
-      </div>
+      </section>
     </div>
   );
 }
