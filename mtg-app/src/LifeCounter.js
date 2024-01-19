@@ -58,10 +58,10 @@ const LifeCounter = () => {
 	return (
 		<div>
 			{editingSettings && step === 1 && (
-				<div>
+				<div className="flex-column">
 					<h2>Players</h2>
 					{players.map((player, index) => (
-						<div className="flex gap-4" key={index}>
+						<div className="flex my-2 gap-4" key={index}>
 							<input
 							className="h-12 min-w-[12rem] rounded-lg border-emerald-500 indent-4 text-emerald-900 shadow-lg focus:outline-none focus:ring focus:ring-emerald-600"
 							type="text"
@@ -72,10 +72,12 @@ const LifeCounter = () => {
 							<button className="h-12 min-w-[8rem] rounded-lg border-2 border-emerald-600 bg-emerald-500 text-emerald-50 shadow-lg hover:bg-emerald-600 focus:outline-none focus:ring focus:ring-emerald-600" onClick={() => handleRemovePlayer(index)}>Remove</button>
 						</div>
 					))}
-					<button onClick={handleAddPlayer}>Add Player</button>
-					{players.length > 2 && (
-						<button onClick={handleConfirmPlayers}>Confirm</button>
-					)}
+					<div className="flex mt-3 gap-4">
+						<button onClick={handleAddPlayer}>Add Player</button>
+						{players.length > 2 && (
+							<button onClick={handleConfirmPlayers}>Confirm</button>
+						)}
+					</div>
 				</div>
 			)}
 	
