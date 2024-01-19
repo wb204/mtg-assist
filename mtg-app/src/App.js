@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Life Counter 11</h1>
         <LifeCounter />
       </div>
     </div>
