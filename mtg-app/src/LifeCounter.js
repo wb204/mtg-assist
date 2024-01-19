@@ -43,6 +43,10 @@ const LifeCounter = () => {
 		setActiveLife(updatedLife);
 	};
 
+	const handleResetLife = () => {
+		setActiveLife([...players.map((player) => player.life = startingLife)]);
+	};
+
 	const handleResetSettings = () => {
 		setStep(1);
 		setPlayers([]);
@@ -109,6 +113,7 @@ const LifeCounter = () => {
 							<button onClick={() => handleLifeChange(index, 1)}>+1</button>
 						</div>
 					))}
+					<button onClick={handleResetLife}>Reset Life</button>
 					<button onClick={handleResetSettings}>Reset Settings</button>
 				</div>
 			)}
